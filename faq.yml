@@ -77,7 +77,7 @@ faqs:
     category: Temple Services
     tags:
       - blood orb
-    answer: 20,000
+    answer: You can hold 20,000 Blood Orbs at a time.
 
   - question: What does this pink message mean on the login launcher?
     category: Login & Maintenance
@@ -212,7 +212,7 @@ faqs:
     tags:
       - portcrystal
       - area
-    answer: [Does this do anything anymore? You can already trigger smaller portcrystals.]
+    answer: <Does this do anything anymore? You can already trigger smaller portcrystals.>
 
   - question: How do I get more revival gems?
     category: Temple Services

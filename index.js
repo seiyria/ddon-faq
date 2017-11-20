@@ -1,4 +1,6 @@
 
+Vue.use(window['bootstrap-vue']);
+
 var vue = new Vue({
     el: '#app',
     data: {
@@ -12,13 +14,17 @@ var vue = new Vue({
         formatName(str) {
             return _.kebabCase(str);
         },
+        displayTitle(cat) {
+            return _.some(this.faqs[cat], faq => this.matchesSearch(faq));
+        },
         matchesSearch(faq) {
             var search = this.search ? this.search.trim().toLowerCase() : '';
 
             if(!search) return true;
-            if(_.some(faq.tags, tag => _.includes(tag.toLowerCase(), search))) return true;
-            if(_.includes(faq.question.toLowerCase(), search)) return true;
-            if(_.includes(faq.answer.toLowerCase(), search)) return true;
+            if(_.some(faq.tags || [], tag => _.includes(tag.toLowerCase(), search))) return true;
+            if(faq.question && _.includes(faq.question.toLowerCase(), search)) return true;
+            if(faq.answer && _.includes(faq.answer.toLowerCase(), search)) return true;
+            if(faq.category && _.includes(faq.category.toLowerCase(), search)) return true;
 
             return false;
         }

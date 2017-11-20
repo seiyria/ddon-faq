@@ -11,9 +11,19 @@
 
     <style>
         [v-cloak] { display: none !important; }
+        #scrollspy-content {
+            width: 100%;
+            overflow-y: auto;
+            overflow-x: hidden;
+            height: calc(100vh - 70px - 115px);
+        }
+        body {
+            overflow-y: hidden;
+        }
     </style>
 
     <script src="https://unpkg.com/vue@2.5.6"></script>
+    <script src="https://unpkg.com/bootstrap-vue@1.1.0/dist/bootstrap-vue.min.js"></script>
     <script src="https://unpkg.com/lodash@4.17.4"></script>
     <script src="https://unpkg.com/yamljs@0.3.0/dist/yaml.min.js"></script>
     <script src="https://unpkg.com/axios@0.17.1/dist/axios.min.js"></script>
@@ -49,43 +59,46 @@
 
         <div v-cloak class="row mt-3" v-if="!loading">
             <div class="col col-3">
-                <ul class="nav flex-column sticky-top">
-                    <li class="nav-item" v-for="cat in categories">
-                        <a class="nav-link" :href="'#' + formatName(cat)">{{ cat }}</a>
-                    </li>
-                </ul>
+                <b-navbar v-b-scrollspy:scrollspy-content class="flex-column sticky-top" style="top: 20px">
+                    <b-navbar-brand href @click.prevent>Categories</b-navbar-brand>
+                    <b-nav pills class="flex-column">
+                        <b-nav-item :href="'#' + formatName(cat)" v-for="cat in categories">{{ cat }}</b-nav-item>
+                    </b-nav>
+                </b-navbar>
             </div>
 
             <div class="col col-9">
                 <div class="row mt-3">
                     <div class="col">
-                        <input class="form-control" v-model="search" :placeholder="'Search ' + totalFaqs + ' frequently asked questions...'" />
+                        <input class="form-control border-dark" v-model="search" :placeholder="'Search ' + totalFaqs + ' frequently asked questions...'" />
                     </div>
                 </div>
 
-                <div class="row mt-3" v-for="cat in categories">
-                    <div class="col">
-                        <h1 class="display-4" :id="formatName(cat)">{{ cat }}</h1>
+                <div class="mt-3" id="scrollspy-content">
+                    <div class="row mt-3" v-for="cat in categories" v-if="displayTitle(cat)" :id="formatName(cat)">
+                        <div class="col">
+                            <h1 class="display-4">{{ cat }}</h1>
 
-                        <div class="row mt-3" v-if="matchesSearch(faq)" v-for="faq in faqs[cat]">
-                            <div class="col w-100">
-                                <div class="card bg-light w-100" :id="formatName(faq.question)">
-                                    <div class="card-header">
-                                        <a :href="'#' + formatName(faq.question)">{{ faq.question }}</a>
-                                    </div>
-                                    <div class="card-body" v-html="faq.answer">
-                                        {{faq.answer }}
-                                    </div>
-                                    <img class="card-img-bottom" v-if="faq.img" :src="faq.img" />
-                                    <div class="card-footer">
-                                        <div class="row">
-                                            <div class="col">
-                                                <em>Tagged: {{ faq.tags.join(', ') }}</em>
-                                            </div>
-                                            <div class="col text-right" v-if="faq.link">
-                                                <a :href="faq.link.url" target="_blank">
-                                                    <i class="fa fa-globe"></i> {{ faq.link.text }}
-                                                </a>
+                            <div class="row mt-3" v-if="matchesSearch(faq)" v-for="faq in faqs[cat]">
+                                <div class="col w-100">
+                                    <div class="card bg-light w-100" :id="formatName(faq.question)">
+                                        <div class="card-header bg-dark">
+                                            <a :href="'#' + formatName(faq.question)" style="color: white !important; font-size: 1.25rem;">{{ faq.question }}</a>
+                                        </div>
+                                        <div class="card-body" v-html="faq.answer">
+                                            {{faq.answer }}
+                                        </div>
+                                        <img class="card-img-bottom" v-if="faq.img" :src="faq.img" />
+                                        <div class="card-footer">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <em>Tagged: {{ faq.tags.join(', ') }}</em>
+                                                </div>
+                                                <div class="col text-right" v-if="faq.link">
+                                                    <a :href="faq.link.url" target="_blank">
+                                                        <i class="fa fa-globe"></i> {{ faq.link.text }}
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
