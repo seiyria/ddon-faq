@@ -3,6 +3,8 @@ var vue = new Vue({
     el: '#app',
     data: {
         faqs: [],
+        totalFaqs: 0,
+        categories: [],
         search: '',
         loading: true
     },
@@ -26,7 +28,9 @@ var vue = new Vue({
 axios.get('faq.yml')
     .then(res => {
         var allData = YAML.parse(res.data);
-        vue.faqs = allData.faqs;
+        vue.totalFaqs = allData.faqs.length;
+        vue.faqs = _.groupBy(allData.faqs, 'category');
+        vue.categories = _.sortBy(_.keys(vue.faqs));
         vue.loading = false;
 
         Vue.nextTick(() => {

@@ -5,22 +5,25 @@ translations:
 
 faqs:
   - question: What is bounty?
+    category: Open World
     tags:
       - bounty
       - world
       - quest
       - event
-    answer: Bounty event is another word for xp world quest event. Various new world quests will appear in game at certain time. The objective of the quest is simple, you kill a boss monster that reward you with massive amount of xp, then you either turn the quest in or the quest update itself. Whatever it is, the quest will also reward you with high xp. DDON main website will tell you when these quests appear (they are always in japan time). But you can always remember when they appear since they all follow the same pattern. These quests appear for only 3 hours, then they're gone for another 3 hours. After that 3 hours, they're back again for 3 hours. Basically, up time is 3 hours, and down time is 3 hours. DDON main website also list what quests are for what lvl and where to find them, but you can also do it in game -- simply check in Lestania news when bounty is up, and look for quests with red clock icon next to them. You can also talk to Area Master to find the location of these quests.
+    answer: Bounty event is another word for xp world quest event. Various new Open World will appear in game at certain time. The objective of the quest is simple, you kill a boss monster that reward you with massive amount of xp, then you either turn the quest in or the quest update itself. Whatever it is, the quest will also reward you with high xp. DDON main website will tell you when these quests appear (they are always in japan time). But you can always remember when they appear since they all follow the same pattern. These quests appear for only 3 hours, then they're gone for another 3 hours. After that 3 hours, they're back again for 3 hours. Basically, up time is 3 hours, and down time is 3 hours. DDON main website also list what quests are for what lvl and where to find them, but you can also do it in game -- simply check in Lestania news when bounty is up, and look for quests with red clock icon next to them. You can also talk to Area Master to find the location of these quests.
 
-  - question: Can I repeat World Quests?
+  - question: Can I repeat Open World?
+    category: Open World
     tags:
       - world
       - quest
       - repeat
       - inn
-    answer: Yes. Whenever everyone in your party enters an inn, or the Temple, all areas in the game reset, including bosses, mobs, world quests, and treasure chests.
+    answer: Yes. Whenever everyone in your party enters an inn, or the Temple, all areas in the game reset, including bosses, mobs, Open World, and treasure chests.
 
   - question: Why can't I change my class or my pawns class?
+    category: Temple Services
     tags:
       - change
       - inn
@@ -29,6 +32,7 @@ faqs:
     answer: You either do not have enough inventory space in your storage chest, or you do not have the appropriate weapon to equip. Make sure your storage chest have plenty of space or you have the appropriate weapon to equip.
 
   - question: Should I unlock core skills?
+    category: Temple Services
     tags:
       - unlock
       - skill
@@ -36,6 +40,7 @@ faqs:
     answer: Yes! You should unlock them for both you and your pawn.
 
   - question: How should I progress my character Blood Orb Tree?
+    category: Temple Services
     tags:
       - blood orb
       - tree
@@ -47,6 +52,7 @@ faqs:
     answer: Always work on the lower left / upper left portion first. After that, go for either top right for str reliant class, or lower right for mag reliant class. Remember that you need to get all nodes within the current tier to be able to get the big node at the top in the middle. Your character Blood Orb tree is extremely important mainly because it gives you AP for augment set up and also main stats for your class! All of your classes benefit from stat given by this tree, so this should be your first priority on Blood Orb spending. (Check out "How to increase your damage" topic)
 
   - question: How do I unlock the other Blood Orb tiers?
+    category: Temple Services
     tags:
       - blood orb
       - tree
@@ -59,6 +65,7 @@ faqs:
       Tier 4: Finish the level 55 Main Quest
 
   - question: How do I unlock my classes Blood Orb Tree?
+    category: Temple Services
     tags:
       - blood orb
       - tree
@@ -67,11 +74,13 @@ faqs:
     answer: Complete the job master personal quest once you've reached level 40.
 
   - question: What is the current Blood Orb cap?
+    category: Temple Services
     tags:
       - blood orb
     answer: 20,000
 
   - question: What does this pink message mean on the login launcher?
+    category: Login & Maintenance
     tags:
       - launcher
       - maintenance
@@ -80,6 +89,7 @@ faqs:
     answer: The message translated is: "The game is under maintenance, please wait patiently until the maintenance is over ^-^"
 
   - question: When is maintenance and how long does it last?
+    category: Login & Maintenance
     tags:
       - launcher
       - maintenance
@@ -90,6 +100,7 @@ faqs:
     answer: The game is always under maintenance at 10:00AM JST on Thursday (which is Wednesday for Western players). Maintenance always lasts for 4 hours, unless stated otherwise. Sometimes there will be emergency maintenance. Please check the main website to be informed in that case. You can see the current time in JST by visiting the below link.
 
   - question: How do I buy job master skills for my pawn?
+    category: Temple Services
     tags:
       - job master
       - pawn
@@ -98,6 +109,7 @@ faqs:
     answer: Your pawns can't do anything you can't - you will need to level up that class and learn the skills to teach them to the pawn.
 
   - question: Can I do Job Training for a class that I am not currently?
+    category: Temple Services
     tags:
       - job master
       - job training
@@ -105,6 +117,7 @@ faqs:
     answer: No, this is not possible. You can only do job training as your current class.
 
   - question: How do I unlock the Job Training log?
+    category: Temple Services
     tags:
       - job master
       - job training
@@ -129,6 +142,7 @@ faqs:
       Next, you may have to get the "Seeking the Master" quest once you're level 18 in your given class. You may also have to do the Training Chapel quests. You can get these from Renton in the Relay Station District in the Temple.
 
   - question: How do I change my current class?
+    category: Temple Services
     tags:
       - class
       - skills
@@ -136,11 +150,13 @@ faqs:
     answer: You will have to progress through the story until you meet Archibald. At that point, you can change to any class. You will need to ensure that you have a level 1 weapon for that class in your storage box.
 
   - question: How do I party with other players?
+    category: Multiplayer
     tags:
       - party
     answer: To party with other players, you have to finish a few Main Quests first. Once you talk to Seneka as part of a Main Quest, you should be able to party with other players. This will be shortly after you get your first pawn.
 
   - question: Can I play with the VPN off?
+    category: Login & Maintenance
     tags:
       - vpn
       - login
@@ -150,12 +166,14 @@ faqs:
     answer: Yes, but you will have to do the workaround described in the below link.
 
   - question: What is the most populated English-speaking world?
+    category: Multiplayer
     tags:
       - world
       - party
     answer: World 13. But this world is not meant <em>for</em> English speakers. Before there were "world labels", early English speaking players picked this world as their "home", but after a certain update, almost every world has a label on them.
 
   - question: How many pawns do I get?
+    category: Temple Services
     tags:
       - pawn
       - party
@@ -168,18 +186,21 @@ faqs:
       Pawn 3: Finish tier 3 of the Blood Orb Tree
 
   - question: How do I get Riftstone Shards?
+    category: Open World
     tags:
       - riftstone shard
       - support goods
     answer: You can get Riftstone Shards by doing personal and Main quests, receiving them as support goods, or killing maneaters (rarely). Maneaters don't appear until level 60, and the quest rewards are few and far between, so support goods is your best bet.
 
   - question: What is an area rank, how do I upgrade it, and how do I get support goods from an area?
+    category: Open World
     tags:
       - area rank
       - support goods
-    answer: You can upgrade your area rank by doing world quests in a specific region of the world. Completing World Quests gives you AP, which can increase your area rank. After getting a certain amount of AP, you can talk to the area master to rank it up. You can get your support goods from a particular area by getting them from the "View Reputation" menu, or talking to the area master in a particular region.
+    answer: You can upgrade your area rank by doing Open World in a specific region of the world. Completing Open World gives you AP, which can increase your area rank. After getting a certain amount of AP, you can talk to the area master to rank it up. You can get your support goods from a particular area by getting them from the "View Reputation" menu, or talking to the area master in a particular region.
 
   - question: My character has a debuff called "Weakness", what is it and how do I get rid of it?
+    category: Temple Services
     tags:
       - weakness
       - dying
@@ -187,12 +208,14 @@ faqs:
     answer: Weakness is a penalty for dying without using a revival gem. It will lower all of your stats, and it lasts for 15 minutes. If you don't want to wait 15 minutes, you can "Treat Weakness" at an Inn. The more often you "Treat Weakness", however, the higher it will cost.
 
   - question: What happens when I "Release Portcrystals"?
+    category: Open World
     tags:
       - portcrystal
       - area
     answer: [Does this do anything anymore? You can already trigger smaller portcrystals.]
 
   - question: How do I get more revival gems?
+    category: Temple Services
     tags:
       - dying
       - revival gem
