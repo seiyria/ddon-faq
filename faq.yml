@@ -4,6 +4,34 @@ translations:
   repo: riftcrystal/DDON-Translation
 
 faqs:
+  - question: What is a Blood Orb?
+    category: Open World
+    tags:
+      - blood orb
+    answer: >
+      Blood Orb, or BO, is another type of currency in DDON that is used to improve your character stats. It can also be used as a trading currency with some NPC for various goods like Grand Mission materials, or crests. You can use BO for  either use BO for your character BO Tree or your character class BO tree. You can also use BO to trade for materials and crests. If you go visit the Goblin King, he will trade for materials (one of which can be used to make money). Periodically, he will sell rare materials as well. If you wish to buy crests, head to Dana, and in the inn area, there will be a vendor that sells them.
+
+  - question: How do you get more gold?
+    category: Open World
+    tags:
+      - gold
+      - farm
+      - materials
+    answer: >
+      <p>DDON isn't so kind to new players when it comes to making money. The best they can do is rely on main quest (MQ) for somewhat of an income. However, once you hit a certain level, you'll be able to start making money.</p>
+      <p>For new players, the best way to make money would be to gather BO and trade it for goods to sell. Once you gather a good amount of BO, you can go to the Hobgoblin King in the Hobgoblin Cave in Volden Mines. He trades various goods to players for BO. Buy an item called Dragon Bone 欠けた竜骨石 from him which cost only 10 BO. Buy as many as you can, then you will vendor this item. It cost only 10 BO, but the vendor price is 500G, that's a huge steal. No other item in his trading list gives you this much money for this low a price. BO trading will be your main source of income pre-60.</p>
+      <p>Once you hit 60, you'll have more options. One option is selling rare materials from world-quest's first time reward (sell on Bazaar ofc). The other is selling regional materials. The best way to check which item is worth your time is to check the bazaar. Check which item is currently on high demand, then simply farm for it. To give an example, a Lv.70 item called Carved Potsherd 刻みつけられた陶片 has always been in high demand. Eventually regional materials will lose their value, and then you simply have to search for another one to sell. If you are in a clan that has unlocked inner clan hall, you'll be able to take on higher level clan quests that require you to turn in regional materials. But, instead of turning in these regional materials, you would sell them on bazaar because other people would be needing it for their clan quests, thus raising the demand for that material.
+
+  - question: What is a World Quest?
+    category: Open World
+    tags:
+      - world quest
+      - blue
+    answer: >
+      <p>World quests are indicated by a blue icon on your map. Much like a quest, world quests reward you for completing them; ranging from XP to R, to AP, and to item rewards. Since there are plenty of WQ at different level range, they serve as a good decent way to gain XP, R, and AP. The good thing about world quests is that they are repeatable.</p>
+      <p>World quests are cycled weekly after maintenance (look up "maintenance" for more information about this topic). A WQ that you have been farming this week may not appear anymore after maintenance. WQ is a good source for job training, mainly because it spawn a particular monster that you might need in a relatively closer distance. Therefore if there is a WQ that spawn a monster that you might need for job training, then it is best to take out that job training before that WQ disappear after maintenance. You can always check what WQ is available in your area. Just go to Lestania News in your Menu! To check the location of a WQ in your area, talk to that area's Area Master.</p>
+      <p>Sometimes, an event called Bounty becomes available. Bounty is another term for XP World Quest Event.</p>
+
   - question: What is bounty?
     category: Open World
     tags:
@@ -23,7 +51,7 @@ faqs:
     answer: Yes. Whenever everyone in your party enters an inn, or the Temple, all areas in the game reset, including bosses, mobs, Open World, and treasure chests.
 
   - question: Why can't I change my class or my pawns class?
-    category: Temple Services
+    category: Pawns
     tags:
       - change
       - inn
@@ -79,6 +107,12 @@ faqs:
       - blood orb
     answer: You can hold 20,000 Blood Orbs at a time.
 
+  - question: What is the current JP cap?
+    category: Temple Services
+    tags:
+      - blood orb
+    answer: You can have 500,000 JP at a time.
+
   - question: What does this pink message mean on the login launcher?
     category: Login & Maintenance
     tags:
@@ -100,7 +134,7 @@ faqs:
     answer: The game is always under maintenance at 10:00AM JST on Thursday (which is Wednesday for Western players). Maintenance always lasts for 4 hours, unless stated otherwise. Sometimes there will be emergency maintenance. Please check the main website to be informed in that case. You can see the current time in JST by visiting the below link.
 
   - question: How do I buy job master skills for my pawn?
-    category: Temple Services
+    category: Pawns
     tags:
       - job master
       - pawn
@@ -115,6 +149,14 @@ faqs:
       - job training
       - class
     answer: No, this is not possible. You can only do job training as your current class.
+
+  - question: How do I finish my Job Training?
+    category: Temple Services
+    tags:
+      - job master
+      - job training
+    answer: >
+      Whenever you complete a job training, you must talk with your job master in order to get the next job training for your particular skill. Your job training will only update when you talk with your job master. Additionally, all custom skills must hit level 6 before you can start doing job training for them, and level 4 for augments. Again, once you hit these levels, you must talk with your job master in order to update your job training list.
 
   - question: How do I unlock the Job Training log?
     category: Temple Services
@@ -173,7 +215,7 @@ faqs:
     answer: World 13. But this world is not meant <em>for</em> English speakers. Before there were "world labels", early English speaking players picked this world as their "home", but after a certain update, almost every world has a label on them.
 
   - question: How many pawns do I get?
-    category: Temple Services
+    category: Pawns
     tags:
       - pawn
       - party
@@ -240,3 +282,579 @@ faqs:
               <tr><td>Level Difference</td><td>3</td><td>4-5</td><td>6-7</td><td>8-9</td><td>10-11</td></tr>
               <tr><td>EXP Gain</td><td>100%</td><td>80%</td><td>60%</td><td>50%</td><td>40%</td></tr>
             </table>
+
+  - question: What is the meaning of this error code?
+    category: Login & Maintenance
+    tags:
+      - error
+      - login
+    link:
+      text: More Info
+      url: https://www.reddit.com/r/dragonsdogmaonline/comments/41y4w2/launcher_error_code_meanings/
+    answer: >
+      Here is a listing of some error codes, taken from the below URL.
+
+      <br><br>
+      <table class="table table-sm">
+        <tr>
+        <th width="100">Error Code</th>
+        <th>Explanation</th>
+        </tr>
+        <tr>
+        <td>E-09-04-99</td>
+        <td>Something went wrong while you were updating the game. Either a file was corrupted or something was not downloaded so you will need to download them again. Could also be you don't have enough free space for the update.</td>
+        </tr>
+        <tr>
+        <td>E-99-06</td>
+        <td>Update server might be down.</td>
+        </tr>
+        <tr>
+        <td>E-99-07</td>
+        <td>Server is down for maintenance.</td>
+        </tr>
+        <tr>
+        <td>E-03-02</td>
+        <td>Logging on immediately after maintenance can cause this error because the server is under stress.</td>
+        </tr>
+        <tr>
+        <td>E-09-03</td>
+        <td>Possibly, this error only comes up when your VPN is not allowing you to correctly connect to the servers.</td>
+        </tr>
+        <tr>
+        <td>E-09-04-12</td>
+        <td>Can happen after a patch, to fix go into the CAPCOM folder, right click DDO folder > Properties > uncheck read-only > apply. After you hit apply if you check it again it'll still say read only, but it should start the game.</td>
+        </tr>
+        <tr>
+        <td>S-15015</td>
+        <td>Happens at the end of character creation. Means your character name has been taken.</td>
+        </tr>
+      </table>
+
+  - question: Are there any places to find quest translations?
+    category: Resources
+    tags:
+      - quest
+      - translation
+    link:
+      text: DDOnline Tumblr
+      url: http://ddonline.tumblr.com/
+    answer: Yes, the linked tumblr blog has many quest translations.
+
+  - question: Where is the most updated translation patch?
+    category: Resources
+    tags:
+      - translation
+    link:
+      text: RiftCrystal DDON Translations
+      url: https://github.com/riftcrystal/DDON-Translation/releases
+    answer: The linked github url has the latest release of the in-game translations. To apply the translation, turn off the launcher, then locate your translation patch folder and extract it to \CAPCOM\Dragon's Dogma Online directory. Once that's done, you can start the launcher again, log in, and launch the game. If you have a pending game update, let that run first before you apply the translation.
+
+  - question: Are there any places to find up to date information and news about DDON?
+    category: Resources
+    tags:
+      - news
+      - information
+    link:
+      text: Julien Schu Tumblr
+      url: http://julien-schu.tumblr.com/
+    answer: Yes, the linked tumblr blog posts updates about relevant game bits - current event, news, and random posts as well.
+
+  - question: Can I buy things with USD (or other, non-yen currencies)?
+    category: Resources
+    tags:
+      - money
+      - passport course
+    link:
+      text: Passport Course Purchase Guide
+      url: http://www.onrpg.com/boards/threads/233884-Dragon-s-Dogma-Online-Passport-Course-Buying-Guide?p=3083362#post3083362
+    answer: Yes, follow the linked guide.
+
+  - question: What is chance attack, blow power, and knockout power?
+    category: Stats
+    tags:
+      - chance attack
+      - blow power
+      - knockout power
+    answer: >
+      <p>Chance attack is a stat that increases how much stamina damage is inflicted during big monsters enraged state (for construct enemies or enemies with white weakness core) and how soon you'll drop them once they've been knocked out of that state, especially formless monsters that do not have an enraged state. ie: Shadow Chimera, Mist Drake.</p>
+
+      <p>Blow power is a stat that makes it more likely for monsters to be staggered. It is often much higher for blunt based weapons.</p>
+
+      <p>Knockout power is a stat that determines how soon a monster will get stunned from attacks that use this stat.</p>
+
+  - question: What are the "Special Conditions" needed to unlock some skills and augments?
+    category: Temple Services
+    tags:
+      - special conditions
+      - blood orb
+      - extreme mission
+      - unlock
+    answer: For all the classes except Spirit Lancer and Alchemist, the first of these skills are acquired through Extreme Mission 4, which is unlocked from a personal quest after completing the Season 1 story. Every other skill and augment is unlocked by completing part of the Blood Orb Tree.
+
+  - question: How do I upgrade my equipment?
+    category: Temple Services
+    tags:
+      - equipment
+      - armor
+      - weapon
+      - material
+      - bazaar
+      - shopping
+    answer: Between level 1 and 52, you can buy armor and weapons from the shopping district in the Temple. For the Spirit Lancer, you would have to go to the town Dana to buy those items. After level 52, you wil have to craft all of your gear - there is no way to trade items or materials. You can attempt to trade items by having one person list a material on the bazaar and the other person buys it right away.
+
+  - question: Why can't I find an item on the Bazaar?
+    category: Temple Services
+    tags:
+      - bazaar
+    answer: First off: the bazaar is case-sensitive (meaning to find Spring Water, you have to type either "Spring", "Water", or "Spring Water" - "spring water" will not work). In addition, only materials can be sold on the bazaar.
+
+  - question: Where can I get or buy an Alchemist elixir?
+    category: Temple Services
+    tags:
+      - alchemist
+      - elixir
+    answer: You can buy Alchemist Elixirs from vendor Ellen near the front gate of White Dragon Temple. She sells all elixir except for Gilding Elixir. You can also craft all Elixirs, but Gilding Elixir can only be crafted.
+
+  - question: There is a cracked wall and it looks like it can be broken down, how do I break cracked walls?
+    category: Open World
+    tags:
+      - destroyable wall
+      - breakable wall
+      - bomb
+    answer: There should always be some explosive barrels nearby. Simply find one, carry it near the cracked wall, and throw at it. It'll break the wall.
+
+  - question: What is Supreme Jewelry?
+    category: Open World
+    tags:
+      - supreme jewelry
+      - trinket
+    answer: >
+      Supreme Jewelery are special trinkets that have multiple augments on them that are stronger than their usual level 6 version. Their downside is that they come without stats (attack power), so for red classes having multiple of them isn't that good. Here is a list of all of trinkets:
+
+      <ul class="mt-3">
+      <li>Warrior Emperor 至高ジュエリー【戦徒】</li>
+      <li>Companion's Constitution (max pawn hp) 友体</li>
+      <li>Companion's Action (max pawn stamina) 友活</li>
+      <li>Companion's Combat (max pawn str) 友攻</li>
+      <li>Companion's Magick (max pawn magick) 友魔</li>
+      <li>Companion's Defense (max pawn def) 友防</li>
+      <li>Companion's Ward (max pawn mdef) 友護</li>
+      <li>Exploration Emperor 至高ジュエリー【探究】</li>
+      <li>Exploration (collection range) 探採</li>
+      <li>Big Eye (treasure range) 宝眼</li>
+      <li>Yinquan (hotspring duration) 延泉</li>
+      <li>Safe Arrival (falling height) 安着</li>
+      <li>Flux (water run speed) 流断</li>
+      <li>Medicina (healing efficacy) 薬効</li>
+      <li>Infection Emperor 至高ジュエリー【侵滅】 </li>
+      <li>Infected Destroyer (dmg inc to infected enemies' outgrowths) 侵壊</li>
+      <li>Infected Safeguard (reduces dmg from infected enemies) 侵護</li>
+      <li>Reduced Corruption (Increased corruption resist) 減侵</li>
+      <li>Great grasp (increased damage of climbing attacks) 豪握</li>
+      <li>Tonic (Increased Blow force if high stamina) 強壮 </li>
+      <li>Night Emperor 至高ジュエリー【夜帝】 </li>
+      <li>Rathology (max hp at night) 羅刹</li>
+      <li>Yasha (max stam at night) 夜叉</li>
+      <li>Sky Annihilation (alc augment - dmg+ for air atks) 空滅</li>
+      <li>Egression (break from enemy grasp faster) 速離</li>
+      <li>Holy Body (inc curse resist) 聖体</li>
+      </ul>
+
+  - question: What is the yellow bar beneath a boss' health?
+    category: Open World
+    tags:
+      - rage
+      - stamina
+      - break
+    img: https://cdn.discordapp.com/attachments/293694741277573132/337116941028163584/unknown.png
+    answer: >
+      <p>After dealing a certain amount of damage to a boss, they will turn all glowy and start taking a lot less damage. This mode is called 'rage phase'. In this phase you can see an additional yellow bar under their health as well as a 'face' directly left of said yellow bar. The yellow bar is the boss monster's stamina bar, the 'face' is their break gauge. Your goal is to drain the boss' stamina to down it, so you and your team can deal lots of damage. </p>
+      <p>You drain stamina by hitting the weak core (which needs to be revealed by a green class' healing ability). The color of the core tells you what element you have to use to drain stamina more effectively (so red core = fire element, blue core = ice, etc).</p>
+      <p>You can also break a boss by filling up its break gauge (making it blue). Your blow power stat determines how much break damage you do. Once the face turns completely blue the boss is broken, loses a lot of stamina and the stamina bar turns blue. During that time shaking it does a ton of stamina damage. You can also just shake while it's not broken, but that's usually slow unless you only need to drain that last few % of the stamina.</p>
+
+  - question: What are Crests?
+    category: Open World
+    tags:
+      - crests
+    answer: >
+      <p>Crests are jewels you socket into weapons and armor (red for weapons, blue for armor) that are done from the Craft Room. Equipment have empty slots ranging from 1 to 4. You can socket crests into these slots for various effects. Weapon crests that deal elemental damage is what causes weapons to glow, and builds the effect of applying their elemental effect when you use that weapon. Weapon crests may also have status afflicting ailments of different potency, or simply crests that boosts damage of the weapon (magical or physical). Armor crests may give certain resistances to elements, debuffs or a general boost to your defense (magical, physical).</p>
+      <p>Note only classes that actually use magic in their attacks will benefit from using magic attack crests, they will not work on physical classes. (ie: Fighter, Warrior). You will get a general boost in damage from elemental crests regardless, because the elemental damage is added on to your normal damage.</p>
+      <p>Socketing crests will cost gold each time its performed, depending on the item rank of the equipment is being socketed, the cost may vary. It's possible to remove crests from equipment, but they will be destroyed in the process.</p>
+
+  - question: What is the class Blood Orb tree and how should I navigate it?
+    category: Temple Services
+    tags:
+      - blood orb
+      - arisen
+    answer: >
+      <p>After completing Lvl57 Main Quest: Fate of Lestania, you'll be able to take on a Lvl40 Personal Quest from the White Dragon. He will lead you to talk to your job master. Completing this quest will open up class BO tree quest for all of your classes. Talking to your job master will then give you another personal quest. Complete this personal quest and you'll unlock your class BO tree. All classes have their own class BO tree. Therefore, you have to get on each of your class and talk to the respective job master to take on these quest to unlock class BO tree for each of your classes.</p>
+
+      <p>The class BO tree is similar to your character BO tree with some differences. First off, all red nodes in this tree will give stat only to that particular class. Some of them give you stats that you don't even need, therefore they serve as fillers to waste your BO.</p>
+
+      <p>Next is yellow nodes. These nodes are special and should be prioritized. Unlike red nodes, yellow nodes give stat to all classes.</p>
+
+      <p>Next is augments and custom skills. When class BO tree was introduced, new skills and augments were introduced as well. These skills and augments can be unlocked in their respective class BO tree. Check each class_info to see which skills are unlocked in their respective class BO tree. Some of these are good, and some are not, doesn't matter cuz you'll get them all eventually</p>
+
+      <p>Maxing your class BO tree doesn't give you a reward so there's no need to get all nodes. Work on those you need first, then slowly fill it out later.</p>
+
+  - question: Can you view the Job Training log without going to the Job Master?
+    category: Temple Services
+    tags:
+      - job training
+    img: https://cdn.discordapp.com/attachments/293694741277573132/330519518013161472/unknown.png
+    answer: Yes, in the second tab of your menu, it's the second option from the bottom ("Job Training Log").
+
+  - question: How do I get my dead pawn back?
+    category: Pawns
+    tags:
+      - pawn
+      - rift
+    answer: >
+      <p>When your pawn falls in battle, you have a certain time limit to pick them up. If you fail to do so in time and they fade away. Your pawn has high chance to become lost. In  this state you cannot resummon your pawn from the rift or use them for any activities such as crafting or pawn expeditions. To rescue your pawn in the Lost state. You must go to the Pawn Cathedral in Mysree Forest that you went through before to first get them. You enter the cathedral and down the walkway between the stairs into a blue door that enters the Rift. Proceed through the rift all the way through the end to rescue your pawn. Complete it all the way through until you leave back out through another blue door. Leaving out too early will not properly rescue your pawn and you will have to do it again. There are a few lost pawns that are equated to your level when you enter, but they should be easy to deal with. Once rescued, your pawn should be listed as Standby now, and can be used and summoned as normal.</p>
+
+      <p>In your pawns own personal BO tree, there are nodes that decrease the chance that your pawn will become lost when they fall and fade away in battle. Main Pawns that are set as partner pawns are less likely to become lost as well, however you can only set one pawn as a partner pawn.</p>
+
+  - question: Can you view the Job Training log without going to the Job Master?
+    category: Temple Services
+    tags:
+      - job training
+    img: https://cdn.discordapp.com/attachments/293694741277573132/330519518013161472/unknown.png
+    answer: Yes, in the second tab of your menu, it's the second option from the bottom ("Job Training Log").
+
+  - question: What is assist mode and what are party rewards?
+    category: Multiplayer
+    tags:
+      - party
+      - assist mode
+      - party rewards
+    answer: >
+      Whenever your party complete a quest and you receive a "Party Reward" message on your screen, this means that you do not have the same progression or you do not have the same quest as the party leader. This results in you not getting the main reward for that quest. Instead, it gives you random rewards that are not related to the quest. To prevent this from happening, your party leader (and your other party members too to be safe) needs to delete this quest from his quest log, reset the area, and pick up the quest again so that everyone are on the same progression for that quest. However, there are some quests that require higher AR to pick up. If your AR is not high, but your party leader is able to pick it up, then you will also receive the quest, but in assist mode, and will result in party reward.</p>
+
+      <p>There is, however, another form of Party Reward. This is the good kind and it is indicated by a blue icon next to a world quest name listed in Lestania News. This form of world quest with Party Reward bonus gives players extra XP, G, R, and AP when completing it in a party; either with pawns or other players. The party reward bonus for these world quest changes daily and you can use this as a good way to get good XP, G, R, and AP daily.
+
+  - question: What are class trinkets and how do I get them?
+    category: Open World
+    tags:
+      - class trinket
+    answer: >
+      Class trinkets are Dragon Trinkets that give free augments that only work for a specific class. ie: Agile Motion increasing the charge speed of guard break core skill of Fighter. These augment skills grant high lvl or max level augment of that class to the player when equipped. These trinkets are gained through PP shop or special events and are redeemed at Gregory at the Shopping District Alley like all other trinkets.
+
+  - question: Where is the item I got in the mail?
+    category: Temple Services
+    tags:
+      - mail
+      - item post
+    answer: >
+      Typically items you receive from mail for any reason, are sent to a special holding bag called Item Post. Item Post is found directly under your normal option for item bag in the first tab of your main menu. Anything that is a tangible item. you receive from mail will be stored there and will not expire or count towards your normal storage, so you can keep things in there for as long as you wish if you don't want to claim them anytime soon. The exception to this is currency such as gold, BO, Golden Gems and passport courses.
+
+  - question: How important is job training?
+    category: Temple Services
+    tags:
+      - job training
+    answer: >
+      Extremely important. Leveling up your skill boosts its damage by a large margin, especially from rank 9 -> 10. The difference is very noticeable and it is advised to have your skill maxed out as soon as possible. Augments are also important because the benefit they give you is irreplaceable - they makes up for half of your damage. Not leveling them is the same as saying "I'm fine being an ant to this dragon". Work on your job training! Also, you'll get a surplus of Job Point (JP), therefore doing job training will help you prevent your JP from maxing out (the max is 500k).
+
+  - question: How do I get stronger and increase my damage?
+    category: Stats
+    tags:
+      - damage
+    answer: >
+      There are many factors that determine your damage. These are: custom skill level, augments (main stat up augments, proficiency augment, elemental damage up augments, others), your element (for against monster), your weapon (close to monster level? Upgraded?), main stat from BO tree and class BO tree, your equipment, and lastly your level (how close your are to the monster level). All of these add up to determining how good your damage capability is. Therefore, always make sure you have the right build every run, the right element, top notch skills, and work on your BO tree and class BO. Always keep your weapon up to level if you want to do good damage.
+
+  - question: Will I run out of JP?
+    category: Temple Services
+    tags:
+      - jp
+    answer: >
+      In theory no, you will not. You'll have a surplus of JP to at least try out what every skill does. Each job has their own JP as well so you won't need to cross JP (except for Secret Augments, which can use any job's JP to upgrade). You get JP each time you level, and if you feel like you need more. Grand Missions such as Gritten Fort give JP as a reward with each finish. In addition, Pawns have their  own method of gaining additional JP when needed by converting RP (which are rewarded for renting others pawns and returning them) into JP directly.
+
+  - question: What is IR and how do I check it?
+    category: Stats
+    tags:
+      - ir
+    answer: >
+      IR, or Item Rank, is the ranking value for various items, materials, and equipments in DDON. An item rarity could be determined by how high is the value of its IR. Since items and materials have IR, your equipment does as well. Each piece of your equipment has its own IR and your total IR is determined by their average. Only your main hand equipments count toward the IR average (basically the 8 pieces of equipments to the left of your character preview). Secondary equipments like shield or rod do not add to the average of IR. You can check your current IR in the upper right of your status window. Although IR doesn't speak for a player skill, it is one way to check whether a player can take on certain contents, like extreme mission. Extreme mission 1 -> 4 does not have an IR requirement, but EM 5 -> 8 does.
+
+  - question: How do I find out what augments are offered in trinkets or class trinket?
+    category: Temple Services
+    tags:
+      - augment
+      - trinket
+    answer: You can always check with Gregory for a list of possible augments from class trinkets. Just select the trinket and he will list them on the right.
+
+  - question: How do I reset the world?
+    category: Open World
+    tags:
+      - reset
+    answer: >
+      <p>In DDON, whenever your entire party enter an inn/the white dragon temple, the entire world resets. This means that all items you found in the wild have now respawn; all bosses you killed, respawn; all the treasure chests; respawn; all world quest, respawn. If you played DD:DA, then imagine it like this: instead of resting at an inn for 4 days to reset the world, in DDON you just have to enter an inn/the Temple, and everything respawns!</p>
+      <p>Remember that your entire party has to enter an inn - any inn is fine. A way to know your world has reset is through this message "パーティー全員が拠点に戻りました" which will appear in your chat box. This phrase means "Party has returned to base".</p>
+
+  - question: What are clan dungeons, how are they unlocked, and why do them?
+    category: Multiplayer: Clans
+    tags:
+      - clan dungeon
+    answer: >
+      <p>Once your clan reaches level 12 you can buy the secret first floor room of your guild Hall for 30000 CP.</p>
+      <p>This enables you and your clan members to collect hints that are strewn about various dungeons (not every dungeon has one, but no dungeon has more than one). Collecting these hints will unlock the first three dungeons. The fourth dungeon is unlocked from two hints that are found within the first three CDs by completing them without running out of time.</p>
+      <p>Time? You heard right. The clan dungeons themselves are timed challenges, where each room has a set time limit you have to beat. If you're fast enough, you get sent to the next room of the 'good' path, which gets increasingly harder. Failing to beat the time limit sends you to a lower level room. If you always beat the time, you will get the best rewards (or chance of those anyway).</p>
+      <p>Now the tasty part. Each dungeon has the chance to drop a piece of clan dungeon armor, which has IR75, 0 (!) weight and ir65 stats. You can get those pieces from the big chest at the end, which respawns every Sunday during standard reset time.</p>
+      <p>The first CD drops the helm, the second the arms, the third the legs and the fourth the chest piece. The small chests of any dungeon have a chance to drop the cape.</p>
+      <p>Clan dungeons can be done either with clan mates or pawns.</p>
+      <p>Keep in mind that you have to be level 80 to do any real damage on there, since even though it says level 75 for the first 3 dungeons at the NPC, they will quickly ramp up to featuring level 80 enemies that stand in your way.</p>
+
+  - question: How does debilitation rate work?
+    category: Stats
+    tags:
+      - debilitation rate
+    answer: >
+      <p>Applying debilitation in DDON isn't the same as many other games. There is no chance of proc. Instead it is proc rate, or debilitation rate (how much value was applied per hit). All debilitation follow this concept, including those elemental ones like burn/freeze. Every hit, you apply an 'x' amount of debilitation value. Keep hitting and you'll reach the "Applied" mark and the debilitation is now in full effect. There are many ways you can apply debilitation. These are: elemental crests, debilitating crests, elemental skills, and elemental buff. In the case of using crests on your weapon, you'll be able to see your debilitation value. For debilitating skills, you'll not be able to see this value. But some debilitations have a build up bar, allowing you to see how close you are from fully applying it. Elemental debilitation does not have a build up bar. <br><strong>Takeaway: debilitation value is applied 'x' amount per hit.</strong></p>
+
+      <p>You can combine crests with skills to amplify the debilitation rate. For example, Element Archer is known for freezing monsters. They have a skill called Fourfold which shoot ice elemental arrows. The freezing value for this skill is unknown, but you can increase it by slotting multiple permafrost crests onto your weapon. At this point, your normal shot and ONLY Fourfold benefit from permafrost crest's freezing value. This also apply to elemental buff from tank classes. Let's continue using EA as an example. You now have several permafrost crest on you, your Fourfold freezing value is amplified from crests, and now you get an ice enchantment from a tank. Your freezing value has now skyrocketed. <br><strong>Takeaway: you can stack debilitation value using multiple method.</strong></p>
+
+      <p>For elemental debilitation, there is one thing to make a note of: if you use elemental crest to amplify your elemental skills, then keep in mind that only the same element works together. If you crest your weapon with permafrost crest and shoot fire bolts, your fire bolts aren't going to freeze anyone. This however doesn't apply to non-elemental attacks or skills. Non-elemental attack or skills will take up any element your weapon is imbued with. <br><strong>Takeaway: you will only apply elemental debilitation value from crest if you use the same elemental attack or use non-elemental attack.</strong></p>
+
+      <p>Almost all skills are capable of applying debilitations. Elemental skills will always build up debilitation value of their respective element. It make sense for non-elemental skills/attacks to apply whatever debilitation you have on. Additionally, elemental skills can apply other kind of debilitation beside elemental. For example, Sorcerer Bolide spell: if you crest your weapon with Magick Defense Down and cast Bolide, that spell will build up both Burn and Def Down debilitation. This is good to know if you want to mix up your build by having multiple weapons. <br><strong>Takeaway: other forms of debilitation can be applied even on elemental skills or non-elemental skills.</strong></p>
+
+      <p>Each skill has their own debilitation rate. Meaning that even if you have 70 Defense Down on your weapon, using a skill does not mean it will apply all 70 value. Thus, some skills are better than others when it comes to applying debilitation. Additionally, raising a skill level also raise its debilitation rate.</p>
+
+      <p>Depending on where you hit a monster, debilitation rate will vary. Hitting your debilitating attack at a monster weak spot will apply more debilitation value than hitting at its tail. So, make sure you focus your attacks at a monster weak spot, or their head.</p>
+
+      <p>Your weapon IR/level also affect your debilitation rate. This is pretty simple, the closer your weapon level is to the monster, the more value you apply. Therefore if you have many weapons for applying debilitation, make sure their close to the monster value.</p>
+
+      <p>Lastly, once you apply a debilitation, applying it again will take longer. Your debilitation rate remains the same, however. It is only the debilitation value required to proc your debilitation increases. This is to prevent players from spamming the same debilitation over and over.</p>
+
+  - question: How does the Rookie Ring work?
+    category: Beginners
+    tags:
+      - rookie ring
+    img: https://cdn.discordapp.com/attachments/293694741277573132/332026733442236416/unknown.png
+    answer: >
+      The Rookie Ring will double your xp gain from level 1 to level 72 (so you can take it off once you hit level 72). You can craft additional Rookie Rings for your pawn by getting an item called "Enlightened Ring Plate" - it can be purchased from a vendor in the shopping district valley, and given to Gregory for another ring.
+
+  - question: What is RP and what is it used for?
+    category: Pawns
+    tags:
+      - rp
+    answer: >
+      RP or Rental Point, is a type of currency that you receive when releasing a hired pawn. This currency is used for your pawns to give them JP to any of their classes. You can do this from a Riftstone. It caps out at 99,999RP which equates to 9,999JP. The value of RP you get from a hired pawn depends on how much you have used it. Using up all 5 adventure counts and all 10 crafting counts will yield more RP than having some left. Thanks to this system, it is not a problem to pay little attention to pawn JP cap, since they basically get an unlimited amount as long as you hire other pawns.
+
+  - question: Should I split my Main Quest XP?
+    category: Beginners
+    tags:
+      - split
+      - main quest
+      - xp
+    answer: >
+      While tempting, you should not split your MQ XP. The reason for this is MQ gives you enough xp for you to reach tne next required level for the next MQ. If you give this XP to another class, then you will have to grind XP on your main class in order to reach the required level for the next MQ. If this is your intention then that's totally fine, but if not then you should not split MQ XP.
+
+  - question: What are the "Key of X" items?
+    category: Open World
+    tags:
+      - key
+      - gemstone
+      - jewelry
+      - dragon force
+      - treasure
+    answer: >
+      The following list of keys are used to open up special doors that reward you with different goods depending on the door you opened. These doors are scattered amongst Lv.60+ dungeons. To know which dungeon has a door in it, simply check in Spot Info in Area List, then look for a door icon next to a dungeon name.
+      <ul class="mt-3">
+      <li>Key of Gemstone [昌石] : Open up doors that reward R</li>
+      <li>Key of Jewelry [宝飾] : Open up doors that rewad trinkets</li>
+      <li>Key of Dragon Force [竜力] : Open up doors that reward Blood Orb (BO)</li>
+      <li>Key of Treasure [財宝] : Open up doors that reward Gold (G)</li>
+      </ul>
+
+  - question: How should I distribute stat points for my pawns crafting?
+    category: Pawns
+    tags:
+      - crafting
+    img: https://cdn.discordapp.com/attachments/293694741277573132/333485554094178305/unknown.png
+    answer: Literally only put points into Enhancement.
+
+  - question: What are infected/corrupted enemies?
+    category: Open World
+    tags:
+      - infected
+      - corrupted
+    answer: >
+      <p>Infected enemies are enemies you'd find in Bloodbane Isle and in some places in Phindym continent. These enemies have increased Endurance and passively pulse infected spores that has a chance to inflict the corrupted status to anyone nearby. The more severe their infection, the more these spores pulse. Infected enemies have green or pink purplish growths that look like tentacles or fungi engulfing their body.</p>
+
+      <p>The growths can be broken with enough damage is done to them. When this happens, their endurance will be significantly lowered, able to be staggered more easily and the pulsing spores will stop temporarily. If they aren't killed they will grow back.</p>
+
+      <p>Boss type infected enemies do not have an enraged phase, and are downed when all their infected growths have been broken. However, these boss type enemies have strengthened stages. If their growths aren't destroyed fast enough, they will grow more, and becomes stronger, have stronger and more wild abilities, and have more of these growths cover their body making their passive spore pulses more severe and increase the chance of being corrupted to players. These growths usually grow over where the monsters weak spot would normally be. You cannot reveal cores on corrupted boss monsters as they aren't "active" while infected. The weaknesses of monsters infected will be different than what they normally are weak to in most cases.</p>
+
+  - question: What is each debuff in the game?
+    category: Stats
+    tags:
+      - debuff
+      - burning
+      - poison
+      - freeze
+      - shocked
+      - skill stifling
+      - torpor
+      - stun
+      - sleep
+      - petrify
+      - golden
+      - oil
+      - tar
+      - wet
+      - cursed
+      - corrupted
+      - up
+      - down
+      - weakened
+    answer: >
+      <dl>
+        <dt>Burning (Player)</dt><dd>Players afflicted by burning is treated like two debuffs: it puts a burning over time effect and stuns you, making you unable to act. You can shorten this time by struggling to put yourself out. The damage from this is affected by fire resistances.</dd>
+
+        <dt>Burning (Monster)</dt><dd>Monsters simply take the burning over time effect from above. It does momentarily interrupt any action they are doing when its applied.</dd>
+
+        <dt>Poison</dt><dd>Inflicts user with a damage over time effect based on a percentage of their HP.</dd>
+
+        <dt>Freeze (Player)</dt><dd>The player is frozen in place and susceptible to attack, damage taken is increased while frozen. This can be struggled out of.</dd>
+
+        <dt>Freeze (Monster)</dt><dd>The monster is frozen for a set amount of time, damage is increased while frozen.</dd>
+
+        <dt>Shocked</dt><dd>Interrupts immediately any action taken when its afflicted and continues to interrupt any action over set intervals for its duration.</dd>
+
+        <dt>Skill Stifling (Player)</dt><dd>Prevents players from executing custom skills. Can use basic skills such as core skills however.</dd>
+
+        <dt>Skill Stifling (Monster)</dt><dd>Prevents monster from doing any spell casting.</dd>
+
+        <dt>Torpor</dt><dd>Slows the target for the duration with any movement taken.</dd>
+
+        <dt>Stun</dt><dd>Leaves target vulnerable and unable to act for its duration. Players can struggle out of this.</dd>
+
+        <dt>Sleep (Player)</dt><dd>Leaves player vulnerable, laying upon the ground. Any attack will wake them but whatever attack wakes them does significantly increased damage.</dd>
+
+        <dt>Sleep (Monster)</dt><dd>Lulls the monster to sleep, leaving them vulnerable. They take increased damage while asleep. Damage wakes them, but takes a while to wake up. If left undisturbed, they can sleep for a long time.</dd>
+
+        <dt>Petrify (Player)</dt><dd>Player is slowly taken over by petrification in mere seconds. When fully encased, the player is dead and cannot be revived by an ally.</dd>
+
+        <dt>Petrify (Monster)</dt><dd>Monster is instantly encased in stone. Damage is increased to them (especially blunt) and remains encased in stone for a period of time.</dd>
+
+        <dt>Golden</dt><dd>It's like being petrified, except you're turned into a chunk of gold instead.</dd>
+
+        <dt>Oil/Tar</dt><dd>Makes target more likely to be lit on fire, instantly becoming inflicted with burning status. If you have a lantern on, you instantly gain the burning status.</dd>
+
+        <dt>Wet</dt><dd>Makes target more likely to be shocked or frozen.</dd>
+
+        <dt>Cursed</dt><dd>Players cannot use this status effect to their benefit. It locks off half of a players HP when afflicted permanently cutting their HP in half. The remaining HP is treated as their full HP for augments and effects. There is no immediate cure to Curse. Visiting the White Temple and the Dragon's power will dispel the curse. It can also cleansed by resting at an Inn.</dd>
+
+        <dt>Corrupted</dt><dd>A combination of Petrify and Torpor and Poison. It comes in 3 stages: light, severe, critical. Stages advance over time. Each advancement increases how much you are slowed and increases how much damage over time you take. You must stand still to allow an ally to assist in getting rid of it just like revive. However, the afflicted can stop people from helping them at any time in case of incoming attack. Can also be cured from Corruption Cure, the only item to cure this state. Failure to do so, will cause growths to appear and take over the players body, and they're treated as if they're petrified.</dd>
+
+        <dt>Weakened</dt><dd>Lowers all stats of the afflicted for a long period of time. Lasts 15 minutes. This status is obtained when you die and return to town.</dd>
+
+        <dt>Stat Down/Stat Up</dt><dd>Decreases or increases a particular stat.</dd>
+      </dl>
+
+  - question: How is damage calculated?
+    category: Stats
+    tags:
+      - damage formula
+    img: https://media.discordapp.net/attachments/293694741277573132/337418670206746635/unknown.png?width=826&height=392
+    answer: Damage = str/mag x penetration rate x skill magnification x weak-point magnification x attribute magnification x buff x debuff x others.
+
+  - question: What are silver tickets used for?
+    category: Temple Services
+    tags:
+      - silver ticket
+      - treasure lot
+    answer: >
+      <p>Silver tickets are a seperate currency used for the Treasure Lot. A lottery for bonus items ranging powerful consumables to special equipment. Silver Tickets are usually rewarded as daily login rewards and from consecutive logins. They can also be rewarded from some events. Certain treasure lots will last for a while and be pushed out of cycle and eventually become unavailable once they're gone.</p>
+      <p>Some Treasure Lots will cost GG (Golden Gems) instead of silver tickets and usually have higher rates for the higher ranked items.</p>
+
+  - question: What is weight and what does it affect?
+    category: Stats
+    tags:
+      - weight
+    answer: >
+      <p>There is no character weight mechanic in this game. A heavy character will be able to do the same thing as a lightweight character. However there is equipment weight, and the total weight of your equipment will effect various things related to stamina. Lighter weight will allow your character to regenerate stamina faster, and use up lesser stamina for stamina consumption (custom skill usage). On the contrary, heavier weight will result in slower stamina regeneration, and stamina consumption is higher. In your character status screen, you can see the weight meter underneath the preview of your character's look. Weight is divided in many section depending on your current weight value. Reaching a certain value will give you the effect of that weight. Meaning, if you reach Very Light, then lowering your weight value anymore doesn't help you regenerate stamina any faster.</p>
+      <p>Certain classes need to have their weight lighter mainly because they rely heavily on custom skills (aka red classes, especially seeker). To lower your weight, there's no such thing as "using lower level equipment to have lighter weight". You do not do that, or else you will get 1 shot. You use Weight Reduction Crests and slot them into your armor. These crests lower a piece of equipment's weight by a percent, and only on the piece you slot them on - it does not effect other pieces. So you have to use many of them if you want to lower more weights. There is also an accessory that reduce your total weight by 20%. This item can be crafted in the craft room (it is very expensive and time consuming to gather its materials).</p>
+
+      <ul class="mt-3">
+      <li>Very Light: 1 -> 200</li>
+      <li>Light: 201-300</li>
+      <li>Medium: 301-400</li>
+      <li>Heavy: 401-500</li>
+      <li>Very Heavy: 500+</li>
+      </ul>
+
+  - question: Where are screenshots for the game stored?
+    category: Resources
+    tags:
+      - screenshot
+    answer: AppData\Local\CAPCOM\Dragon's Dogma Online
+
+  - question: What is limit breaking?
+    category: Temple Services
+    tags:
+      - limit break
+    answer: >
+      <p>Limit Breaking is a feature in the craft room from a male npc named Craig. Talking to him gives the option to Limit Break equipment or weapons. Limit Breaking gives the item a chance to receive a random enchant bonus with a random potency. ex: Resist Freeze +20, Inflict Catching Fire +3. Limit Breaking can only be done on armor or weapons that are fully enhanced to 4 stars.</p>
+      <p>The cost for limit breaking can be chosen to be either R (the currency you use for teleporting), Custom Arms Ticket (you get two free from doing his personal introductory quests) or from GG (Golden Gems). You can Limit Break an item as many times as you want as long as you have the means to pay it from the 3 choices. Custom Arms Tickets have a higher random chance to give a high potency random enchant, and Golden Gems have the highest.</p>
+
+  - question: What is PP and how do I get it?
+    category: Stats
+    tags:
+      - pp
+      - supreme jewelry
+    answer: >
+      <p>PP can be earned by getting a class to level 70 and then doing a quest given by Archibald. PP is earned in place of XP when toggled on. Below level 75, only boss monsters give PP. Beyond that:</p>
+
+      <ul class="mt-3">
+      <li>Any lvl78+ mobs in a dungeon count as PP mobs</li>
+      <li>All WQ mobs count as PP mobs</li>
+      <li>No overworld mobs count unless they fall under (2) unless they drop royal crest medals</li>
+      <li>Caution spot mobs including basic overworld mobs drop PP</li>
+      <li>Mobs falling under clan PQ or area PQ also do not count if they do not fall under (1-4)</li>
+      <li>The most PP you can get from any kill at this time is 15</li>
+      </ul>
+
+      <p>You can then exchange these PP for trinkets, either 200 for an unappraised moon trinket (king) or for 500 for a class specific trinket. These class specific trinkets can have augments from your class like moon, star, etc trinkets, with the difference that the augments can be level 3-6. However, class trinkets come without stats, so they're generally bad for red classes. They also only have a pool of like 4 or 5 augments per class. Only green and blue classes (and hunter and sorcerer) have any augments in the trinket pool worth going for at all, so if you're a red class you should only ever exchange for moon trinkets.</p>
+
+      <p>You can also exchange 2000 PP for a Supreme Jewelery Ringplate, of which you need 3-5 of to craft Supreme Jewelery.</p>
+
+      <p>In addition to Season 3, you were given an Emblem for each class that holds various stats. Using PP, you can level up your emblem which will give you bonuses for doing so.</p>
+
+  - question: What is BP and how do I get it?
+    category: Stats
+    tags:
+      - bp
+    answer: >
+      BP is a currency earned automatically from active adventure passports. You earn 1 BP every hour the passport is active, regardless of if you are online or offline. You spend the BP at the login rewards and Revival Recovery NPC at the White Dragon Temple. You can spend BP on free exp, R, PP, or gold. These aren't that signficant and shouldn't be sought after specifically to get, but use them if you get the opportunity.
+      </ul>
+
+  - question: How do you progress Epitaph Road?
+    category: Dungeons
+    tags:
+      - epitaph road
+    answer: >
+      <p>After finishing the lvl 83 MQ, within Fort Thines, there is a woman in the item shop section that offers a personal quest that requires an average Item Rank of 82 to accept. Once taking this quest you can enter the Epitaph Dungeon.</p>
+      <p>To progress in this dungeon you require Guardian Spirits which are obtained from trials and slaying monsters within to unlock sections blocked by a red barrier. To progress you do not NEED to do all the trials to progress through it, rather than just unlocking the red doors and talking to the npc at the end. You do however need to unlock all the blue paths for the final part.</p>
+
+  - question: What are pawn training tactics behaviors?
+    category: Pawns
+    tags:
+      - training tractics
+    answer: >
+      Training tactics are behaviors your pawn will do during encounters. Their list follows a priority list from top being most important to bottom being the least. These are per job basis. Each job gets their own training list. At lvl 26 you get access to choose how more likely your pawn focus on attack or support.. The behavior list is as follows:
+
+      <ul>
+      <li>状態異常を回復する　recover status effect with spells</li>
+      <li>体力が危険な時に回復する　heal when hp is critical</li>
+      <li>体力が危険な時に回復を受けにいく　go to recieve healing when hp is critical</li>
+      <li>タッチ救済する　touch recovery for like healing frozen and stuff</li>
+      <li>シークレットコアを発現する reveal core</li>
+      <li>体力が少ない時に回復する　heal when hp is low</li>
+      <li>体力が少ない時に回復を受けにいく　go to recieve healing when hp is low</li>
+      <li>スタミナを回復する　recover stamina</li>
+      <li>オブジェクトを破壊する　destroy objects</li>
+      <li>攻撃・支援をする　attack/support</li>
+      <li>体力が少しでも減れば回復する　heal if damaged</li>
+      <li>体力が少しでも減れば回復を受けにいく go to recieve healing if damaged</li>
+      <li>敵の注目を集める    Attract enemy attention</li>
+      <ul>
