@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Frequently Asked Questions in Dragons Dogma Online">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DDON FAQ</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/vue-multiselect@2.0.6/dist/vue-multiselect.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <style>
+        [v-cloak] { display: none !important; }
+    </style>
+
+    <script src="https://unpkg.com/vue@2.5.6"></script>
+    <script src="https://unpkg.com/lodash@4.17.4"></script>
+    <script src="https://unpkg.com/yamljs@0.3.0/dist/yaml.min.js"></script>
+    <script src="https://unpkg.com/axios@0.17.1/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">DDON FAQ</a>
+
+        <ul class="navbar-nav ml-auto">
+            <li class="mr-2">
+                <a style="color: #fff">
+                    Created by Seiyria Swaglin
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/seiyria/ddon-faq" target="_blank">
+                    <span class="fa fa-github" style="color: #fff"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container mt-3" id="app">
+
+        <div v-cloak class="row mt-3" v-if="loading">
+            <div class="col">
+                <div class="alert alert-info">
+                    <i class="fa fa-spinner fa-spin"></i> Currently loading all FAQ...
+                </div>
+            </div>
+        </div>
+
+        <div v-cloak class="row mt-3" v-if="!loading">
+        </div>
+
+        <div v-cloak class="row mt-3" v-if="faq.length > 0" v-for="faq in faqs">
+            <div class="col w-100">
+                <div class="card w-100">
+                    <div class="card-header">
+                    </div>
+                    <div class="card-body"></div>
+                    <div class="card-footer"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-5"></div>
+    </main>
+
+    <nav class="navbar fixed-bottom navbar-expand navbar-dark bg-dark d-none d-md-block d-l-block d-xl-block p-0">
+        <ul class="navbar-nav">
+            <li>
+                <a class="nav-link" @click.prevent>DDON Information Network</a>
+            </li>
+            <li>
+                <a class="nav-link" target="_blank" href="/ddon-monster-locations">Monster Locations</a>
+            </li>
+            <li>
+                <a class="nav-link" target="_blank" href="/ddon-vocation-skills">Vocation Info</a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="index.js"></script>
+</body>
+</html>
