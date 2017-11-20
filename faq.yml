@@ -212,7 +212,7 @@ faqs:
     tags:
       - portcrystal
       - area
-    answer: <Does this do anything anymore? You can already trigger smaller portcrystals.>
+    answer: Does this do anything anymore? You can already trigger smaller portcrystals.
 
   - question: How do I get more revival gems?
     category: Temple Services
@@ -220,3 +220,23 @@ faqs:
       - dying
       - revival gem
     answer: You can visit Ophelia in the Temple once per day (resetting with the daily reset). She will refill you back up to 3 revival gems. If you have a Passport Course, you can refill this an unlimited number of times per day.
+
+  - question: Is there an experience penalty for partying with other players?
+    category: Multiplayer
+    tags:
+      - party
+      - penalty
+    answer: >
+      Yes, there is a penalty based on the min and max level in your party. The penalty used to be as follows, but has been lowered.
+            <br><br>
+            <table class="table table-sm">
+              <tr><th colspan="6" class="text-center">Monster Experience</td></tr>
+              <tr><td>Level Difference</td><td>2</td><td>3-4</td><td>5-6</td><td>7-8</td><td>9-10</td></tr>
+              <tr><td>EXP Gain</td><td>100%</td><td>90%</td><td>80%</td><td>60%</td><td>50%</td></tr>
+            </table>
+            <br><br>
+            <table class="table table-sm">
+              <tr><th colspan="6" class="text-center">World Quest Experience</td></tr>
+              <tr><td>Level Difference</td><td>3</td><td>4-5</td><td>6-7</td><td>8-9</td><td>10-11</td></tr>
+              <tr><td>EXP Gain</td><td>100%</td><td>80%</td><td>60%</td><td>50%</td><td>40%</td></tr>
+            </table>

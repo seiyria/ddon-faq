@@ -27,6 +27,14 @@ var vue = new Vue({
             if(faq.category && _.includes(faq.category.toLowerCase(), search)) return true;
 
             return false;
+        },
+        scrollToAndPast(evt) {
+            evt.preventDefault();
+            var href = evt.target.getAttribute('href');
+            var el = href ? document.querySelector(href) : null;
+            if (el) {
+                document.getElementById('scrollspy-content').scrollTop = el.offsetTop;
+            }
         }
     }
 });

@@ -59,10 +59,10 @@
 
         <div v-cloak class="row mt-3" v-if="!loading">
             <div class="col col-3">
-                <b-navbar v-b-scrollspy:scrollspy-content class="flex-column sticky-top" style="top: 20px">
+                <b-navbar v-b-scrollspy:scrollspy-content class="flex-column">
                     <b-navbar-brand href @click.prevent>Categories</b-navbar-brand>
                     <b-nav pills class="flex-column">
-                        <b-nav-item :href="'#' + formatName(cat)" v-for="cat in categories">{{ cat }}</b-nav-item>
+                        <b-nav-item :href="'#' + formatName(cat)" v-for="cat in categories" @click="scrollToAndPast">{{ cat }}</b-nav-item>
                     </b-nav>
                 </b-navbar>
             </div>
