@@ -5,7 +5,7 @@ translations:
 
 faqs:
   - question: What is a Blood Orb?
-    category: Open World
+    category: Blood Orbs
     tags:
       - blood orb
     answer: >
@@ -68,7 +68,7 @@ faqs:
     answer: Yes! You should unlock them for both you and your pawn.
 
   - question: How should I progress my character Blood Orb Tree?
-    category: Temple Services
+    category: Blood Orbs
     tags:
       - blood orb
       - tree
@@ -80,7 +80,7 @@ faqs:
     answer: Always work on the lower left / upper left portion first. After that, go for either top right for str reliant class, or lower right for mag reliant class. Remember that you need to get all nodes within the current tier to be able to get the big node at the top in the middle. Your character Blood Orb tree is extremely important mainly because it gives you AP for augment set up and also main stats for your class! All of your classes benefit from stat given by this tree, so this should be your first priority on Blood Orb spending. (Check out "How to increase your damage" topic)
 
   - question: How do I unlock the other Blood Orb tiers?
-    category: Temple Services
+    category: Blood Orbs
     tags:
       - blood orb
       - tree
@@ -93,7 +93,7 @@ faqs:
       Tier 4: Finish the level 55 Main Quest
 
   - question: How do I unlock my classes Blood Orb Tree?
-    category: Temple Services
+    category: Blood Orbs
     tags:
       - blood orb
       - tree
@@ -102,7 +102,7 @@ faqs:
     answer: Complete the job master personal quest once you've reached level 40.
 
   - question: What is the current Blood Orb cap?
-    category: Temple Services
+    category: Blood Orbs
     tags:
       - blood orb
     answer: You can hold 20,000 Blood Orbs at a time.
@@ -110,7 +110,7 @@ faqs:
   - question: What is the current JP cap?
     category: Temple Services
     tags:
-      - blood orb
+      - jp
     answer: You can have 500,000 JP at a time.
 
   - question: What does this pink message mean on the login launcher?
@@ -220,6 +220,7 @@ faqs:
       - pawn
       - party
       - riftstone shard
+      - blood orb
     answer: >
       You can have up to 3 main pawns and 5 hired pawns. You will not start with them all, however. To unlock them:<br>
 
@@ -482,7 +483,7 @@ faqs:
       <p>Socketing crests will cost gold each time its performed, depending on the item rank of the equipment is being socketed, the cost may vary. It's possible to remove crests from equipment, but they will be destroyed in the process.</p>
 
   - question: What is the class Blood Orb tree and how should I navigate it?
-    category: Temple Services
+    category: Blood Orbs
     tags:
       - blood orb
       - arisen
@@ -656,6 +657,10 @@ faqs:
       - jewelry
       - dragon force
       - treasure
+      - r
+      - trinket
+      - blood orb
+      - gold
     answer: >
       The following list of keys are used to open up special doors that reward you with different goods depending on the door you opened. These doors are scattered amongst Lv.60+ dungeons. To know which dungeon has a door in it, simply check in Spot Info in Area List, then look for a door icon next to a dungeon name.
       <ul class="mt-3">
