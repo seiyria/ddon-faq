@@ -34,3 +34,166 @@ faqs:
       - skill
       - augment
     answer: Yes! You should unlock them for both you and your pawn.
+
+  - question: How should I progress my character Blood Orb Tree?
+    tags:
+      - blood orb
+      - tree
+      - dragon
+      - arisen
+      - pawn
+      - damage
+      - stats
+    answer: Always work on the lower left / upper left portion first. After that, go for either top right for str reliant class, or lower right for mag reliant class. Remember that you need to get all nodes within the current tier to be able to get the big node at the top in the middle. Your character Blood Orb tree is extremely important mainly because it gives you AP for augment set up and also main stats for your class! All of your classes benefit from stat given by this tree, so this should be your first priority on Blood Orb spending. (Check out "How to increase your damage" topic)
+
+  - question: How do I unlock the other Blood Orb tiers?
+    tags:
+      - blood orb
+      - tree
+      - dragon
+      - arisen
+      - pawn
+    answer: >
+      Tier 2: Finish the level 35 Main Quest<br>
+      Tier 3: Finish the level 45 Main Quest<br>
+      Tier 4: Finish the level 55 Main Quest
+
+  - question: How do I unlock my classes Blood Orb Tree?
+    tags:
+      - blood orb
+      - tree
+      - arisen
+      - class
+    answer: Complete the job master personal quest once you've reached level 40.
+
+  - question: What is the current Blood Orb cap?
+    tags:
+      - blood orb
+    answer: 20,000
+
+  - question: What does this pink message mean on the login launcher?
+    tags:
+      - launcher
+      - maintenance
+      - login
+    img: https://media.discordapp.net/attachments/293694741277573132/329829788116189195/unknown.png?width=827&height=486
+    answer: The message translated is: "The game is under maintenance, please wait patiently until the maintenance is over ^-^"
+
+  - question: When is maintenance and how long does it last?
+    tags:
+      - launcher
+      - maintenance
+      - login
+    link:
+      text: Current Japan Time
+      url: https://www.timeanddate.com/worldclock/japan
+    answer: The game is always under maintenance at 10:00AM JST on Thursday (which is Wednesday for Western players). Maintenance always lasts for 4 hours, unless stated otherwise. Sometimes there will be emergency maintenance. Please check the main website to be informed in that case. You can see the current time in JST by visiting the below link.
+
+  - question: How do I buy job master skills for my pawn?
+    tags:
+      - job master
+      - pawn
+      - skill
+      - augment
+    answer: Your pawns can't do anything you can't - you will need to level up that class and learn the skills to teach them to the pawn.
+
+  - question: Can I do Job Training for a class that I am not currently?
+    tags:
+      - job master
+      - job training
+      - class
+    answer: No, this is not possible. You can only do job training as your current class.
+
+  - question: How do I unlock the Job Training log?
+    tags:
+      - job master
+      - job training
+      - class
+      - skills
+      - augments
+    answer: >
+      To start, you need to be area rank 5 in the zone that your leader is in. For each class, it is as follows:
+      <br><br>
+      <table class="table table-striped table-sm">
+        <tr><td>Fighter</td><td>Gritten Fort</td></tr>
+        <tr><td>Priest</td><td>Mysree Forest</td></tr>
+        <tr><td>Shield Sage</td><td>Breya Coast</td></tr>
+        <tr><td>Sorcerer</td><td>Mysree Forest</td></tr>
+        <tr><td>Seeker</td><td>Dowe Valley</td></tr>
+        <tr><td>Elemental Archer</td><td>Deenan Woods</td></tr>
+        <tr><td>Warrior</td><td>Eastern Zandora</td></tr>
+        <tr><td>Alchemist</td><td>Mergoda</td></tr>
+        <tr><td>Spirit Lancer</td><td>Dana</td></tr>
+      </table>
+      <br>
+      Next, you may have to get the "Seeking the Master" quest once you're level 18 in your given class. You may also have to do the Training Chapel quests. You can get these from Renton in the Relay Station District in the Temple.
+
+  - question: How do I change my current class?
+    tags:
+      - class
+      - skills
+      - augments
+    answer: You will have to progress through the story until you meet Archibald. At that point, you can change to any class. You will need to ensure that you have a level 1 weapon for that class in your storage box.
+
+  - question: How do I party with other players?
+    tags:
+      - party
+    answer: To party with other players, you have to finish a few Main Quests first. Once you talk to Seneka as part of a Main Quest, you should be able to party with other players. This will be shortly after you get your first pawn.
+
+  - question: Can I play with the VPN off?
+    tags:
+      - vpn
+      - login
+    link:
+      text: VPN Workaround
+      url: https://www.reddit.com/r/dragonsdogmaonline/comments/3lhqt4/vpn_workaround/
+    answer: Yes, but you will have to do the workaround described in the below link.
+
+  - question: What is the most populated English-speaking world?
+    tags:
+      - world
+      - party
+    answer: World 13. But this world is not meant <em>for</em> English speakers. Before there were "world labels", early English speaking players picked this world as their "home", but after a certain update, almost every world has a label on them.
+
+  - question: How many pawns do I get?
+    tags:
+      - pawn
+      - party
+      - riftstone shard
+    answer: >
+      You can have up to 3 main pawns and 5 hired pawns. You will not start with them all, however. To unlock them:<br>
+
+      Pawn 1: Finish the level 5 Main Quest<br>
+      Pawn 2: Give 10 Riftstone Shards to the Dragon<br>
+      Pawn 3: Finish tier 3 of the Blood Orb Tree
+
+  - question: How do I get Riftstone Shards?
+    tags:
+      - riftstone shard
+      - support goods
+    answer: You can get Riftstone Shards by doing personal and Main quests, receiving them as support goods, or killing maneaters (rarely). Maneaters don't appear until level 60, and the quest rewards are few and far between, so support goods is your best bet.
+
+  - question: What is an area rank, how do I upgrade it, and how do I get support goods from an area?
+    tags:
+      - area rank
+      - support goods
+    answer: You can upgrade your area rank by doing world quests in a specific region of the world. Completing World Quests gives you AP, which can increase your area rank. After getting a certain amount of AP, you can talk to the area master to rank it up. You can get your support goods from a particular area by getting them from the "View Reputation" menu, or talking to the area master in a particular region.
+
+  - question: My character has a debuff called "Weakness", what is it and how do I get rid of it?
+    tags:
+      - weakness
+      - dying
+      - revival gem
+    answer: Weakness is a penalty for dying without using a revival gem. It will lower all of your stats, and it lasts for 15 minutes. If you don't want to wait 15 minutes, you can "Treat Weakness" at an Inn. The more often you "Treat Weakness", however, the higher it will cost.
+
+  - question: What happens when I "Release Portcrystals"?
+    tags:
+      - portcrystal
+      - area
+    answer: [Does this do anything anymore? You can already trigger smaller portcrystals.]
+
+  - question: How do I get more revival gems?
+    tags:
+      - dying
+      - revival gem
+    answer: You can visit Ophelia in the Temple once per day (resetting with the daily reset). She will refill you back up to 3 revival gems. If you have a Passport Course, you can refill this an unlimited number of times per day.

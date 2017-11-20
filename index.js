@@ -28,4 +28,13 @@ axios.get('faq.yml')
         var allData = YAML.parse(res.data);
         vue.faqs = allData.faqs;
         vue.loading = false;
+
+        Vue.nextTick(() => {
+            if(!window.location.hash) return;
+
+            var el = document.getElementById(window.location.hash.substring(1));
+            if(!el) return;
+
+            el.scrollIntoView();
+        })
     });
