@@ -712,6 +712,9 @@ faqs:
       - up
       - down
       - weakened
+    link:
+      text: JP Wiki Effect List
+      url: http://dogmaonlineyyy.wiki.fc2.com/wiki/%E7%8A%B6%E6%85%8B%E5%A4%89%E5%8C%96%E3%81%A8%E5%B1%9E%E6%80%A7
     answer: >
       <dl>
         <dt>Burning (Player)</dt><dd>Players afflicted by burning is treated like two debuffs: it puts a burning over time effect and stuns you, making you unable to act. You can shorten this time by struggling to put yourself out. The damage from this is affected by fire resistances.</dd>
