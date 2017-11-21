@@ -844,7 +844,7 @@ faqs:
   - question: What are pawn training tactics behaviors?
     category: Pawns
     tags:
-      - training tractics
+      - training tactics
     answer: >
       Training tactics are behaviors your pawn will do during encounters. Their list follows a priority list from top being most important to bottom being the least. These are per job basis. Each job gets their own training list. At lvl 26 you get access to choose how more likely your pawn focus on attack or support.. The behavior list is as follows:
 
@@ -862,4 +862,7 @@ faqs:
       <li>体力が少しでも減れば回復する　heal if damaged</li>
       <li>体力が少しでも減れば回復を受けにいく go to recieve healing if damaged</li>
       <li>敵の注目を集める    Attract enemy attention</li>
-      <ul>
+      <li>行動の優先度 Movement priorities</li>
+      <li>敵との間合い Enemy Distance</li>
+      <li>敵との間合い - Get Closer</li>
+      <ul>敵との間合いより詰める - Get Farther Away</li>
