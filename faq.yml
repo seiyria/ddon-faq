@@ -701,7 +701,7 @@ faqs:
       - torpor
       - stun
       - sleep
-      - softened
+      - frailness
       - petrify
       - golden
       - oil
@@ -747,9 +747,9 @@ faqs:
 
         <dt>Golden</dt><dd>It's like being petrified, except you're turned into a chunk of gold instead.</dd>
 
-        <dt>Softened (Player)</dt><dd>Reduces stagger power to 0.</dd>
+        <dt>Frailness (Player)</dt><dd>Reduces stagger power to 0.</dd>
 
-        <dt>Softened (Monster)</dt><dd>Makes target easier to stagger.</dd>
+        <dt>Frailness (Monster)</dt><dd>Makes target easier to stagger.</dd>
 
         <dt>Oil/Tar</dt><dd>Makes target more likely to be lit on fire, instantly becoming inflicted with burning status. If you have a lantern on, you instantly gain the burning status.</dd>
 
