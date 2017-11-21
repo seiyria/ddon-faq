@@ -701,6 +701,7 @@ faqs:
       - torpor
       - stun
       - sleep
+      - softened
       - petrify
       - golden
       - oil
@@ -742,6 +743,8 @@ faqs:
         <dt>Petrify (Monster)</dt><dd>Monster is instantly encased in stone. Damage is increased to them (especially blunt) and remains encased in stone for a period of time.</dd>
 
         <dt>Golden</dt><dd>It's like being petrified, except you're turned into a chunk of gold instead.</dd>
+
+        <dt>Softened</dt><dd>Makes target easier to stagger.</dd>
 
         <dt>Oil/Tar</dt><dd>Makes target more likely to be lit on fire, instantly becoming inflicted with burning status. If you have a lantern on, you instantly gain the burning status.</dd>
 
