@@ -615,6 +615,8 @@ faqs:
     answer: >
       The Rookie Ring will double your xp gain from level 1 to level 72 (so you can take it off once you hit level 72). You can craft additional Rookie Rings for your pawn by getting an item called "Enlightened Ring Plate" - it can be purchased from a vendor in the shopping district valley, and given to Gregory for another ring.
 
+      The ring will also stack with Passport Courses. You will get a 2x bonus from both of them for a total of 3x xp (if you get 100 xp by default, you get +100 from the ring and +100 from the course).
+
   - question: What is RP and what is it used for?
     category: Pawns
     tags:
